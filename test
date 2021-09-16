@@ -1,0 +1,7 @@
+#!/bin/bash
+gnome-terminal -e "bash -c \"python prm.py 1 setup.txt\""
+gnome-terminal -e "bash -c \"python prm.py 2 setup.txt\""
+gnome-terminal -e "bash -c \"python prm.py 3 setup.txt\""
+gnome-terminal -e "bash -c \"python cli1.py 1 setup.txt\""
+gnome-terminal -e "bash -c \"python cli2.py 1 setup.txt\""
+gnome-terminal -e "bash -c \"python cli3.py 1 setup.txt\""
